@@ -44,3 +44,14 @@ while my_number <= 10:
         break
 
 print("this is over!")
+
+
+# مثالی برای یادگیری حلقه های تو در تو:
+for num in range(1, 10):
+    stars = ""
+    for star in range(1, num + 1):
+        stars += "*"
+    print(stars)
+# کار مثال بالا دقیقا این هست:
+for num in range(1, 10):
+    print("*" * num)
